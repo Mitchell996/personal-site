@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  //background-image:"/Screen Shot 2021-02-05 at 7.39.58 PM.png";
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.siteborder{
+  background-image:url("/Screen Shot 2021-02-06 at 1.04.37 PM.png");
+  background-repeat: no-repeat;
+  //background-attachment: fixed;
+  background-position: center;
+  background-color:#738b70;
+  background-size: cover;
+
+  
+  
+}
+h2{
+  font-family:" Lucida Handwriting,cursive";
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+ 
+}
+
